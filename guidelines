@@ -1,0 +1,33 @@
+# Contribution Guidelines
+
+## Code Style
+- Follow the language-specific style guide (e.g., PEP 8 for Python).
+- Use meaningful variable names and keep functions/modules small and modular.
+- Ensure code is well-commented for readability.
+
+## Commit Messages
+- Commit messages should follow this format:
+  - **feat:** A new feature
+  - **fix:** A bug fix
+  - **docs:** Documentation-only changes
+  - **style:** Changes that do not affect the code (white-space, formatting)
+  - **refactor:** A code change that neither fixes a bug nor adds a feature
+  - **test:** Adding or correcting tests
+
+## Branch Naming Conventions
+- Use the following branch naming conventions:
+- **feature/**: for new features, e.g., `feature/user-auth`
+- **fix/**: for bug fixes, e.g., `fix/login-issue`
+- **refactor/**: for code restructuring, e.g., `refactor/dashboard-ui`
+- Always create a new branch for new features and bug fixes.
+
+## Pull Request Process
+- Ensure your code passes all tests before submitting a PR.
+- Write clear and concise descriptions in your PR.
+- At least one other team member should review the code before merging.
+- After receiving approval, you may merge your PR into the `main` branch.
+
+## Version Control
+- Regular commits are required, ideally at the end of each work session.
+- Use meaningful commit messages as described above.
+- Keep your local branch updated by pulling from the `main` branch before pushing changes.
